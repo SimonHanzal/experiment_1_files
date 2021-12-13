@@ -1,6 +1,8 @@
 library(Superpower)
 set.seed(2022)
-mu <- c(-0.25, 0.25, 0.25, -0.25) #Cohen's f expected to be 0.25
+mu <- c(-0.25, 0.25, 0.25, -0.25) #Cohen's f expected to be 0.25.
+#Justification: Schmiedt-Fehr et al., 2016: DOI: 10.1016/j.clinph.2016.07.008, Reteig et al., 2019: 10.1016/j.cortex.2019.02.016
+#f value: Cohen, 1988
 n <- 17 #Number of participants suggested by plotting
 sd <- 1 #Typical parameters
 r <- 0.5 #Typical parameters
